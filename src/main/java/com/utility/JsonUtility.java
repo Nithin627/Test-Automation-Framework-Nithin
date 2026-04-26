@@ -10,7 +10,7 @@ import com.ui.pojo.Environment;
 
 public class JsonUtility {
 
-	public static String readJSON(Env env) {
+	public static Environment readJSON(Env env) {
 
 		Gson gson = new Gson();
 		File jsonFile = new File(System.getProperty("user.dir") + "/config/config.json");
@@ -23,8 +23,8 @@ public class JsonUtility {
 
 		}
 		Config config = gson.fromJson(fileReader, Config.class);
-		Environment environment = config.getEnvironments().get("QA");
-		return environment.getUrl();
+		Environment environment = config.getEnvironments().get(env.toString().toUpperCase());
+		return environment;
 	}
 
 }

@@ -1,7 +1,5 @@
 package com.ui.tests;
 
-
-
 import org.testng.annotations.Test;
 
 import static com.constants.Browser.*;
@@ -17,7 +15,7 @@ public class LoginPageTest3 {
 		String password = "nithin@123";
 
 //		WebDriver driver = new ChromeDriver();
-		HomePage homePage = new HomePage(CHROME);
+		HomePage homePage = new HomePage(CHROME, true);
 
 		LoginPage loginPage = homePage.goToLoginPage();
 		loginPage.doLoginWith(email, password);
@@ -29,8 +27,8 @@ public class LoginPageTest3 {
 
 		String email = "yatese2929@mugstock.com";
 		String password = "nithin@123";
-		
-		HomePage homePage = new HomePage(CHROME);
+
+		HomePage homePage = new HomePage(CHROME, true);
 		String userName = homePage.goToLoginPage().doLoginWith(email, password).getUserName();
 		System.out.println(userName);
 

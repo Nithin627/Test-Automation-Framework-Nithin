@@ -8,7 +8,7 @@ import java.util.Properties;
 
 import com.constants.Env;
 
-public class PropertiesUtil {
+public class PropertiesUtily {
 
 	public static String readProperty(Env env, String propertyName) {
 

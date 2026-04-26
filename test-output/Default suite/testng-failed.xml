@@ -6,7 +6,8 @@
       <class name="com.ui.tests.LoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="loginExcelTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.ui.tests.LoginTest -->
     </classes>

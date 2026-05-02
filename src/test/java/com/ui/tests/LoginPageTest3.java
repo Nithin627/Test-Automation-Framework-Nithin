@@ -18,7 +18,7 @@ public class LoginPageTest3 {
 		HomePage homePage = new HomePage(CHROME, true);
 
 		LoginPage loginPage = homePage.goToLoginPage();
-		loginPage.doLoginWith(email, password);
+		loginPage.doLoginWithValidCredentials(email, password);
 
 	}
 
@@ -29,7 +29,7 @@ public class LoginPageTest3 {
 		String password = "nithin@123";
 
 		HomePage homePage = new HomePage(CHROME, true);
-		String userName = homePage.goToLoginPage().doLoginWith(email, password).getUserName();
+		String userName = homePage.goToLoginPage().doLoginWithValidCredentials(email, password).getUserName();
 		System.out.println(userName);
 
 	}

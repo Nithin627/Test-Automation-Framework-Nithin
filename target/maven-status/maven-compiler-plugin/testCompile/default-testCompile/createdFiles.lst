@@ -1,6 +1,8 @@
 com\ui\tests\TestBase.class
 com\ui\listners\TestListener.class
+com\ui\tests\SearchProductsTest.class
 com\ui\tests\LoginPageTest2.class
+com\ui\tests\InvalidCredsLoginTest.class
 com\ui\tests\LoginPageTest3.class
 com\ui\listners\MyRetryAnalyzer.class
 com\ui\tests\LoginPageTest1.class

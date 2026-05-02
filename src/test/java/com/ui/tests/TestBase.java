@@ -1,6 +1,6 @@
 package com.ui.tests;
 
-import static com.constants.Browser.CHROME;
+import static com.constants.Browser.*;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +25,7 @@ public class TestBase {
 
 	@Parameters({ "browser", "isLambdaTest", "isHeadless" })
 	@BeforeMethod(description = "Loads the Home Page of the Website")
-	public void setUp(@Optional("chrome") String browser, @Optional("false") boolean isLambdaTest,
+	public void setUp(@Optional("chrome") String browser, @Optional("true") boolean isLambdaTest,
 			@Optional("true") boolean isHeadless, ITestResult result) {
 		this.isLambdaTest = isLambdaTest;
 		WebDriver lambdaDriver;
@@ -36,7 +36,7 @@ public class TestBase {
 		} else {
 			// Running the test in local machine
 			logger.info("Loads the Home Page of the Website");
-			homePage = new HomePage(CHROME, isHeadless); // isHeadLess true/false
+			homePage = new HomePage(EDGE, isHeadless); // setup browser name and isHeadLess true/false
 //			homePage= new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless);
 		}
 

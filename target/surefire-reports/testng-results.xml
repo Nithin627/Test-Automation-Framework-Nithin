@@ -1,21 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="7" passed="2" failed="3" skipped="0">
+<testng-results retried="2" ignored="0" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-26T12:11:23 IST" name="Automation Suite" finished-at="2026-04-26T12:11:40 IST" duration-ms="17048">
+  <suite started-at="2026-04-28T09:16:41 IST" name="Automation Suite" finished-at="2026-04-28T09:17:03 IST" duration-ms="21928">
     <groups>
       <group name="smoke">
-        <method signature="LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" name="loginJsonTest" class="com.ui.tests.LoginTest"/>
+        <method signature="InvalidCredsLoginTest.loginExcelTest()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" name="loginExcelTest" class="com.ui.tests.InvalidCredsLoginTest"/>
+        <method signature="LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
+        <method signature="SearchProductsTest.verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" name="verifyProductSearch" class="com.ui.tests.SearchProductsTest"/>
       </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="InvalidCredsLoginTest.loginExcelTest()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" name="loginExcelTest" class="com.ui.tests.InvalidCredsLoginTest"/>
+      </group> <!-- sanity -->
       <group name="e2e">
-        <method signature="LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" name="loginJsonTest" class="com.ui.tests.LoginTest"/>
+        <method signature="InvalidCredsLoginTest.loginExcelTest()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" name="loginExcelTest" class="com.ui.tests.InvalidCredsLoginTest"/>
+        <method signature="LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
+        <method signature="SearchProductsTest.verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" name="verifyProductSearch" class="com.ui.tests.SearchProductsTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2026-04-26T12:11:23 IST" name="Automation Test" finished-at="2026-04-26T12:11:40 IST" duration-ms="17048">
+    <test started-at="2026-04-28T09:16:41 IST" name="Automation Test" finished-at="2026-04-28T09:17:03 IST" duration-ms="21928">
+      <class name="com.ui.tests.SearchProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:42 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:16:51 IST" duration-ms="9780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:51 IST" name="setUp" description="Valid user logs into the application" finished-at="2026-04-28T09:16:53 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:53 IST" name="verifyProductSearch" description="Verify loged in user able to search for a product and correct products serach are displayed" finished-at="2026-04-28T09:16:53 IST" duration-ms="649" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:53 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:16:53 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:53 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:16:57 IST" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:57 IST" name="setUp" description="Valid user logs into the application" finished-at="2026-04-28T09:16:58 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:58 IST" name="verifyProductSearch" description="Verify loged in user able to search for a product and correct products serach are displayed" finished-at="2026-04-28T09:16:59 IST" duration-ms="615" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:59 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:16:59 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:16:59 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:17:02 IST" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:17:02 IST" name="setUp" description="Valid user logs into the application" finished-at="2026-04-28T09:17:03 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductSearch()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:17:03 IST" name="verifyProductSearch" description="Verify loged in user able to search for a product and correct products serach are displayed" finished-at="2026-04-28T09:17:03 IST" duration-ms="439" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.SearchProductsTest@740d2e78]" started-at="2026-04-28T09:17:03 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:17:03 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ui.tests.SearchProductsTest -->
+      <class name="com.ui.tests.InvalidCredsLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" started-at="2026-04-28T09:16:42 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:16:47 IST" duration-ms="5887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=InvalidCredsLoginTest.loginExcelTest()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginExcelTest()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" started-at="2026-04-28T09:16:47 IST" name="loginExcelTest" description="Verify Invalid user able to login to the application using excel" finished-at="2026-04-28T09:16:48 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginExcelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.InvalidCredsLoginTest@7e4204e2]" started-at="2026-04-28T09:16:48 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:16:49 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ui.tests.InvalidCredsLoginTest -->
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:23 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:25 IST" duration-ms="1313" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:42 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:16:52 IST" duration-ms="9842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,14 +287,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:25 IST" name="loginExcelTest" description="Verify valid user able to login to the application using excel" data-provider="loginTestExcelDataProvider" finished-at="2026-04-26T12:11:25 IST" duration-ms="603" status="PASS">
+        <test-method signature="loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:52 IST" name="loginExcelTest" description="Verify valid user able to login to the application using excel" data-provider="loginTestExcelDataProvider" finished-at="2026-04-28T09:16:53 IST" duration-ms="959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,11 +305,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginExcelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:25 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:25 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:53 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:16:53 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:25 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:27 IST" duration-ms="1238" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:53 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-28T09:16:57 IST" duration-ms="4052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,14 +328,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:27 IST" name="loginExcelTest" description="Verify valid user able to login to the application using excel" data-provider="loginTestExcelDataProvider" finished-at="2026-04-26T12:11:27 IST" duration-ms="652" status="PASS">
+        <test-method signature="loginExcelTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:57 IST" name="loginExcelTest" description="Verify valid user able to login to the application using excel" data-provider="loginTestExcelDataProvider" finished-at="2026-04-28T09:16:58 IST" duration-ms="970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,372 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginExcelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:27 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:28 IST" duration-ms="257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:28 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:29 IST" duration-ms="1152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:29 IST" name="loginJsonTest" description="Verify valid user able to login to the application using json" data-provider="loginTestJSONDataProvider" finished-at="2026-04-26T12:11:29 IST" duration-ms="576" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Users [email=yatese2929@mugstock.com, password=nithin@123]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nithin Ps] but found [Nithin P]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginJsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:29 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:30 IST" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:30 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:31 IST" duration-ms="1033" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:31 IST" name="loginJsonTest" description="Verify valid user able to login to the application using json" data-provider="loginTestJSONDataProvider" finished-at="2026-04-26T12:11:31 IST" duration-ms="670" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Users [email=yatese2929@mugstock.com, password=nithin@123]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nithin Ps] but found [Nithin P]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginJsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:31 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:32 IST" duration-ms="278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:32 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:33 IST" duration-ms="1134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:33 IST" name="loginJsonTest" description="Verify valid user able to login to the application using json" data-provider="loginTestJSONDataProvider" finished-at="2026-04-26T12:11:33 IST" duration-ms="665" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Users [email=yatese2929@mugstock.com, password=nithin@123]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nithin Ps] but found [Nithin P]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginJsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:34 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:34 IST" duration-ms="937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:34 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:36 IST" duration-ms="1126" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:36 IST" name="loginJsonTest" description="Verify valid user able to login to the application using json" data-provider="loginTestJSONDataProvider" finished-at="2026-04-26T12:11:36 IST" duration-ms="715" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Users [email=yatese2929@mugstock.com, password=nithin@123]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nithin Ps] but found [Nithin P]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginJsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:36 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:37 IST" duration-ms="864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:37 IST" name="setUp" description="Loads the Home Page of the Website" finished-at="2026-04-26T12:11:38 IST" duration-ms="1160" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginJsonTest(com.ui.pojo.Users)[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:38 IST" name="loginJsonTest" description="Verify valid user able to login to the application using json" data-provider="loginTestJSONDataProvider" finished-at="2026-04-26T12:11:39 IST" duration-ms="733" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Users [email=yatese2929@mugstock.com, password=nithin@123]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nithin Ps] but found [Nithin P]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginJsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@50d13246]" started-at="2026-04-26T12:11:39 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-26T12:11:40 IST" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@e70f13a]" started-at="2026-04-28T09:16:58 IST" name="tearDown" description="Tear down the browser" finished-at="2026-04-28T09:16:59 IST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

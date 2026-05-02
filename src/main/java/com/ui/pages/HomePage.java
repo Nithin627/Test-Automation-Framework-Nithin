@@ -14,18 +14,19 @@ import com.utility.BrowserUtility;
 public final class HomePage extends BrowserUtility {
 
 	private static final By SIGN_IN_LINK_LOCATOR = By.cssSelector(".login");
+	
 
 	public HomePage(Browser browserName, boolean isHeadless) {
 		super(browserName, isHeadless);
 		goToWebSite(readJSON(QA).getUrl());
 		maximizeWindow();
 	}
-	
+
 	public HomePage(WebDriver driver) {
 		super(driver);
 		goToWebSite(readJSON(QA).getUrl());
 		maximizeWindow();
-		
+
 	}
 
 	public LoginPage goToLoginPage() {
@@ -33,5 +34,7 @@ public final class HomePage extends BrowserUtility {
 		return new LoginPage(getDriver());
 
 	}
+
+
 
 }

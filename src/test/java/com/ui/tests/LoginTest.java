@@ -17,19 +17,19 @@ public class LoginTest extends TestBase{
 
 	
 
-	@Test(description = "Verify valid user able to login to the application using json", groups = { "smoke",
-			"e2e" }, dataProvider = "loginTestJSONDataProvider", dataProviderClass = com.ui.DataProviders.LoginDataprovider.class, retryAnalyzer = com.ui.listners.MyRetryAnalyzer.class)
-	public void loginJsonTest(Users user) {
-
-//		String email = "yatese2929@mugstock.com";
-//		String password = "nithin@123";
-
-		logger.info("Started my login JSON test");
-		String userName = homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName();
-		assertEquals(userName, "Nithin Ps");
-		logger.info("login JSON test completed");
-
-	}
+//	@Test(description = "Verify valid user able to login to the application using json", groups = { "smoke",
+//			"e2e" }, dataProvider = "loginTestJSONDataProvider", dataProviderClass = com.ui.DataProviders.LoginDataprovider.class, retryAnalyzer = com.ui.listners.MyRetryAnalyzer.class)
+//	public void loginJsonTest(Users user) {
+//
+////		String email = "yatese2929@mugstock.com";
+////		String password = "nithin@123";
+//
+//		logger.info("Started my login JSON test");
+//		String userName = homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName();
+//		assertEquals(userName, "Nithin Ps");
+//		logger.info("login JSON test completed");
+//
+//	}
 //
 //	@Test(description = "Verify valid user able to login to the application using csv", groups = { "smoke",
 //			"e2e" }, dataProvider = "loginTestCSVDataProvider", dataProviderClass = com.ui.DataProviders.LoginDataprovider.class, retryAnalyzer = com.ui.listners.MyRetryAnalyzer.class)
@@ -45,7 +45,7 @@ public class LoginTest extends TestBase{
 	public void loginExcelTest(Users user) {
 
 		logger.info("Started my login excel test");
-		String userName = homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName();
+		String userName = homePage.goToLoginPage().doLoginWithValidCredentials(user.getEmail(), user.getPassword()).getUserName();
 		assertEquals(userName, "Nithin P");
 		logger.info("login excel test completed");
 

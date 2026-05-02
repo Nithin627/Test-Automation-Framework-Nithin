@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="18.47" tests="7" errors="0" skipped="2" failures="3" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="22.635" tests="4" errors="0" skipped="0" failures="1" flakes="0">
   <properties>
     <property name="isHeadless" value="true"/>
     <property name="java.specification.version" value="25"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\nithi\AppData\Local\Temp\surefire15914168572945042141\surefirebooter-20260426121122618_3.jar C:\Users\nithi\AppData\Local\Temp\surefire15914168572945042141 2026-04-26T12-11-22_543-jvmRun1 surefire-20260426121122618_1tmp surefire_0-20260426121122618_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nithi\AppData\Local\Temp\surefire15562410432179973203\surefirebooter-20260428091641273_3.jar C:\Users\nithi\AppData\Local\Temp\surefire15562410432179973203 2026-04-28T09-16-41_203-jvmRun1 surefire-20260428091641273_1tmp surefire_0-20260428091641273_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\target\test-classes;C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\target\classes;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\nithi\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\nithi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nithi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nithi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\nithi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\nithi\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\nithi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\nithi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\nithi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nithi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nithi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nithi\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\nithi\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nithi\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\nithi\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nithi\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\nithi\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\nithi\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\nithi\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nithi\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nithi\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nithi\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nithi\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nithi\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nithi\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\nithi\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\nithi\.m2\repository\com\opencsv\opencsv\5.12.0\opencsv-5.12.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-text\1.13.1\commons-text-1.13.1.jar;C:\Users\nithi\.m2\repository\commons-beanutils\commons-beanutils\1.11.0\commons-beanutils-1.11.0.jar;C:\Users\nithi\.m2\repository\commons-logging\commons-logging\1.3.5\commons-logging-1.3.5.jar;C:\Users\nithi\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.4\log4j-core-2.25.4.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.4\log4j-api-2.25.4.jar;C:\Users\nithi\.m2\repository\io\qameta\allure\allure-maven\2.8\allure-maven-2.8.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-core\3.3.9\maven-core-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-model\3.3.9\maven-model-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-settings\3.3.9\maven-settings-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-settings-builder\3.3.9\maven-settings-builder-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-builder-support\3.3.9\maven-builder-support-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-repository-metadata\3.3.9\maven-repository-metadata-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-artifact\3.3.9\maven-artifact-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-plugin-api\3.3.9\maven-plugin-api-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-model-builder\3.3.9\maven-model-builder-3.3.9.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-aether-provider\3.3.9\maven-aether-provider-3.3.9.jar;C:\Users\nithi\.m2\repository\org\eclipse\aether\aether-spi\1.0.2.v20150114\aether-spi-1.0.2.v20150114.jar;C:\Users\nithi\.m2\repository\org\eclipse\aether\aether-impl\1.0.2.v20150114\aether-impl-1.0.2.v20150114.jar;C:\Users\nithi\.m2\repository\org\eclipse\aether\aether-api\1.0.2.v20150114\aether-api-1.0.2.v20150114.jar;C:\Users\nithi\.m2\repository\org\eclipse\aether\aether-util\1.0.2.v20150114\aether-util-1.0.2.v20150114.jar;C:\Users\nithi\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.2\org.eclipse.sisu.plexus-0.3.2.jar;C:\Users\nithi\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\nithi\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\nithi\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.2\org.eclipse.sisu.inject-0.3.2.jar;C:\Users\nithi\.m2\repository\com\google\inject\guice\4.0\guice-4.0-no_aop.jar;C:\Users\nithi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nithi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.22\plexus-utils-3.0.22.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.6\plexus-component-annotations-1.6.jar;C:\Users\nithi\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\nithi\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\nithi\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.4\maven-reporting-impl-2.4.jar;C:\Users\nithi\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\nithi\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\nithi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\nithi\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\nithi\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.6\maven-shared-utils-0.6.jar;C:\Users\nithi\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.6\doxia-sink-api-1.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.6\doxia-logging-api-1.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-core\1.6\doxia-core-1.6.jar;C:\Users\nithi\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\nithi\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\nithi\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.6\doxia-site-renderer-1.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.6\doxia-decoration-model-1.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.6\doxia-module-xhtml-1.6.jar;C:\Users\nithi\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.6\doxia-module-fml-1.6.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\nithi\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.7\plexus-velocity-1.1.7.jar;C:\Users\nithi\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\nithi\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\nithi\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\nithi\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\nithi\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\nithi\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\nithi\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\nithi\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\nithi\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\nithi\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\nithi\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nithi\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.2\maven-plugin-annotations-3.2.jar;C:\Users\nithi\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\2.5\maven-jxr-plugin-2.5.jar;C:\Users\nithi\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\nithi\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\nithi\.m2\repository\org\apache\maven\maven-jxr\2.5\maven-jxr-2.5.jar;C:\Users\nithi\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0\wagon-provider-api-1.0.jar;C:\Users\nithi\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\nithi\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="isLambdaTest" value="false"/>
-    <property name="surefire.real.class.path" value="C:\Users\nithi\AppData\Local\Temp\surefire15914168572945042141\surefirebooter-20260426121122618_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nithi\AppData\Local\Temp\surefire15562410432179973203\surefirebooter-20260428091641273_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -62,111 +62,140 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="loginExcelTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](1)" classname="com.ui.tests.LoginTest" time="0.594">
-    <system-out><![CDATA[2026-04-26 12:11:23 [main] INFO com.ui.listners.TestListener::onStart::21 Test Suite Started..!! 
-2026-04-26 12:11:23 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:23 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:24 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginExcelTest 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using excel 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::47 Started my login excel test 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::50 login excel test completed 
+  <testcase name="loginExcelTest" classname="com.ui.tests.InvalidCredsLoginTest" time="0.839">
+    <system-out><![CDATA[2026-04-28 09:16:41 [main] INFO com.ui.listners.TestListener::onStart::21 Test Suite Started..!! 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-3] INFO com.ui.tests.SearchProductsTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-2] INFO com.ui.tests.InvalidCredsLoginTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-2] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:42 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:16:43 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:16:43 [TestNG-test-Automation Test-2] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:16:43 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.listners.TestListener::onTestStart::33 loginExcelTest 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.listners.TestListener::onTestStart::34 Verify Invalid user able to login to the application using excel 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e, sanity] 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.tests.InvalidCredsLoginTest::loginExcelTest::22 Started my login excel test 
+2026-04-28 09:16:47 [TestNG-test-Automation Test-2] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@gmail.com 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@1233 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::getVisibleText::141 Finding element with locator By.xpath: .//div[contains(@class,'alert-danger')]/ol/li 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.pages.LoginPage::getVisibleText::144 Returning the visible text Authentication failed. 
+2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.tests.InvalidCredsLoginTest::loginExcelTest::26 login excel test completed 
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="loginExcelTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](2)" classname="com.ui.tests.LoginTest" time="0.652">
-    <system-out><![CDATA[2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestSuccess::40 loginExcelTest PASSED 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:25 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:26 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginExcelTest 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using excel 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::47 Started my login excel test 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
-2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::50 login excel test completed 
+  <testcase name="loginExcelTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](1)" classname="com.ui.tests.LoginTest" time="0.24">
+    <system-out><![CDATA[2026-04-28 09:16:48 [TestNG-test-Automation Test-2] INFO com.ui.listners.TestListener::onTestSuccess::40 loginExcelTest PASSED 
+2026-04-28 09:16:51 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:16:51 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:16:51 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text yatese2929@mugstock.com 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginExcelTest 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using excel 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::47 Started my login excel test 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@123 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text yatese2929@mugstock.com 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:16:52 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@123 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::33 verifyProductSearch 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::34 Verify loged in user able to search for a product and correct products serach are displayed 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::132 Finding element with locator By.id: search_query_top 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::134 Element found and entered text Printed Summer Dress 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::124 Finding element with locator By.id: search_query_top 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::126 Element found and entered text  
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::141 Finding element with locator By.cssSelector: a.account > :first-child 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::144 Returning the visible text Nithin P 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::50 login excel test completed 
 ]]></system-out>
   </testcase>
-  <testcase name="loginJsonTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](1)" classname="com.ui.tests.LoginTest" time="0.0">
-    <skipped message="expected [Nithin Ps] but found [Nithin P]"/>
-    <system-out><![CDATA[2026-04-26 12:11:27 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestSuccess::40 loginExcelTest PASSED 
-2026-04-26 12:11:28 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:28 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:28 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginJsonTest 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using json 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginJsonTest::27 Started my login JSON test 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:29 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
+  <testcase name="loginExcelTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](2)" classname="com.ui.tests.LoginTest" time="0.967">
+    <system-out><![CDATA[2026-04-28 09:16:53 [TestNG-test-Automation Test-3] WARN com.ui.listners.TestListener::onTestSkipped::63 verifyProductSearch SKIPPED 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.tests.SearchProductsTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:16:54 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:16:54 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginExcelTest 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using excel 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::47 Started my login excel test 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:16:57 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text yatese2929@mugstock.com 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@123 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text yatese2929@mugstock.com 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@123 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::141 Finding element with locator By.cssSelector: a.account > :first-child 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::144 Returning the visible text Nithin P 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginExcelTest::50 login excel test completed 
 ]]></system-out>
   </testcase>
-  <testcase name="loginJsonTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](2)" classname="com.ui.tests.LoginTest" time="0.0">
-    <skipped message="expected [Nithin Ps] but found [Nithin P]"/>
-    <system-out><![CDATA[2026-04-26 12:11:29 [TestNG-test-Automation Test-1] WARN com.ui.listners.TestListener::onTestSkipped::63 loginJsonTest SKIPPED 
-2026-04-26 12:11:30 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:30 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:30 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginJsonTest 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using json 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginJsonTest::27 Started my login JSON test 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:31 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
+  <testcase name="verifyProductSearch" classname="com.ui.tests.SearchProductsTest" time="0.0">
+    <skipped message="expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]"/>
+    <system-out><![CDATA[2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestSuccess::40 loginExcelTest PASSED 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::141 Finding element with locator By.cssSelector: .lighter 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:16:53 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::144 Returning the visible text "PRINTED SUMMER DRESS" 
 ]]></system-out>
   </testcase>
-  <testcase name="loginJsonTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](3)" classname="com.ui.tests.LoginTest" time="0.663">
-    <failure message="expected [Nithin Ps] but found [Nithin P]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
+  <testcase name="verifyProductSearch" classname="com.ui.tests.SearchProductsTest" time="0.0">
+    <skipped message="expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]"/>
+    <system-out><![CDATA[2026-04-28 09:16:58 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestSuccess::40 loginExcelTest PASSED 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::33 verifyProductSearch 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::34 Verify loged in user able to search for a product and correct products serach are displayed 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::132 Finding element with locator By.id: search_query_top 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::134 Element found and entered text Printed Summer Dress 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::124 Finding element with locator By.id: search_query_top 
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::126 Element found and entered text  
+2026-04-28 09:16:58 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::141 Finding element with locator By.cssSelector: .lighter 
+2026-04-28 09:16:59 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::144 Returning the visible text "PRINTED SUMMER DRESS" 
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductSearch" classname="com.ui.tests.SearchProductsTest" time="0.438">
+    <failure message="expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found ["PRINTED SUMMER DRESS"]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
+	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -184,125 +213,28 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 ]]></failure>
-    <system-out><![CDATA[2026-04-26 12:11:31 [TestNG-test-Automation Test-1] WARN com.ui.listners.TestListener::onTestSkipped::63 loginJsonTest SKIPPED 
-2026-04-26 12:11:32 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:32 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:32 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginJsonTest 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using json 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginJsonTest::27 Started my login JSON test 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
-]]></system-out>
-  </testcase>
-  <testcase name="loginJsonTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](4)" classname="com.ui.tests.LoginTest" time="0.717">
-    <failure message="expected [Nithin Ps] but found [Nithin P]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
-    <system-out><![CDATA[2026-04-26 12:11:33 [TestNG-test-Automation Test-1] ERROR com.ui.listners.TestListener::onTestFailure::46 loginJsonTest FAILED 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] ERROR com.ui.listners.TestListener::onTestFailure::47 expected [Nithin Ps] but found [Nithin P] 
-2026-04-26 12:11:33 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestFailure::54 Capturing ScreenShot for the failed test 
-2026-04-26 12:11:34 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestFailure::57 Attaching ScreenShot to the HTML file 
-2026-04-26 12:11:34 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:34 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:35 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginJsonTest 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using json 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginJsonTest::27 Started my login JSON test 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
-]]></system-out>
-  </testcase>
-  <testcase name="loginJsonTest[Users [email=yatese2929@mugstock.com, password=nithin@123]](5)" classname="com.ui.tests.LoginTest" time="0.741">
-    <failure message="expected [Nithin Ps] but found [Nithin P]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Nithin Ps] but found [Nithin P]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.LoginTest.loginJsonTest(LoginTest.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
-    <system-out><![CDATA[2026-04-26 12:11:36 [TestNG-test-Automation Test-1] ERROR com.ui.listners.TestListener::onTestFailure::46 loginJsonTest FAILED 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] ERROR com.ui.listners.TestListener::onTestFailure::47 expected [Nithin Ps] but found [Nithin P] 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestFailure::54 Capturing ScreenShot for the failed test 
-2026-04-26 12:11:36 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestFailure::57 Attaching ScreenShot to the HTML file 
-2026-04-26 12:11:37 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::setUp::38 Loads the Home Page of the Website 
-2026-04-26 12:11:37 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::<init>::70 Launching Browser for: CHROME 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::105 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::111 Maximizing browser window 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::33 loginJsonTest 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::34 Verify valid user able to login to the application using json 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.tests.LoginTest::loginJsonTest::27 Started my login JSON test 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::116 Finding element with locator By.cssSelector: .login 
-2026-04-26 12:11:38 [TestNG-test-Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: email 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text yatese2929@mugstock.com 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding element with locator By.id: passwd 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found and entered text nithin@123 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::116 Finding element with locator By.id: SubmitLogin 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found and now performing the click 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::132 Finding element with locator By.cssSelector: a.account > :first-child 
-2026-04-26 12:11:39 [TestNG-test-Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::135 Returning the visible text Nithin P 
+    <system-out><![CDATA[2026-04-28 09:16:59 [TestNG-test-Automation Test-3] WARN com.ui.listners.TestListener::onTestSkipped::63 verifyProductSearch SKIPPED 
+2026-04-28 09:16:59 [TestNG-test-Automation Test-3] INFO com.ui.tests.SearchProductsTest::setUp::38 Loads the Home Page of the Website 
+2026-04-28 09:16:59 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::<init>::71 Launching Browser for: CHROME 
+2026-04-28 09:17:00 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::106 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::maximizeWindow::112 Maximizing browser window 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::117 Finding element with locator By.cssSelector: .login 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.HomePage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: email 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text yatese2929@mugstock.com 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::132 Finding element with locator By.id: passwd 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::enterText::134 Element found and entered text nithin@123 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::117 Finding element with locator By.id: SubmitLogin 
+2026-04-28 09:17:02 [TestNG-test-Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::119 Element found and now performing the click 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::33 verifyProductSearch 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::34 Verify loged in user able to search for a product and correct products serach are displayed 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.listners.TestListener::onTestStart::35 [smoke, e2e] 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::132 Finding element with locator By.id: search_query_top 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterText::134 Element found and entered text Printed Summer Dress 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::124 Finding element with locator By.id: search_query_top 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.MyAccountPage::enterSpecialKey::126 Element found and entered text  
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::141 Finding element with locator By.cssSelector: .lighter 
+2026-04-28 09:17:03 [TestNG-test-Automation Test-3] INFO com.ui.pages.SearchResultsPage::getVisibleText::144 Returning the visible text "PRINTED SUMMER DRESS" 
 ]]></system-out>
   </testcase>
 </testsuite>

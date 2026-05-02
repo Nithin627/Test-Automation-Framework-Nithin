@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Automation Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 28 09:16:41 IST 2026</td>
+<td>Started on:</td><td>Sat May 02 14:52:04 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21928 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22217 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,130 +76,37 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ui.tests.SearchProductsTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: com.ui.tests.SearchProductsTest<br>Test method: Verify loged in user able to search for a product and correct products serach are displayed</td>
-<td><div><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+<td title='com.ui.tests.AddNewFirstAddressTest.addNewAdress()'><b>addNewAdress</b><br>Test class: com.ui.tests.AddNewFirstAddressTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@title=&apos;Add my first address&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Add my first address&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55065}, goog:processID: 50944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55065/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4902140c0f19f9971a89a6f6aafc4a7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utility.BrowserUtility.clickOn(BrowserUtility.java:140)
+	at com.ui.pages.MyAccountPage.goToAddAddressPage(MyAccountPage.java:32)
+	at com.ui.tests.AddNewFirstAddressTest.addNewAdress(AddNewFirstAddressTest.java:30)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace264670595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace264670595'><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.SearchProductsTest@740d2e78</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.ui.tests.InvalidCredsLoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.InvalidCredsLoginTest<br>Test method: Verify Invalid user able to login to the application using excel</td>
-<td></td>
-<td>0</td>
-<td>com.ui.tests.InvalidCredsLoginTest@7e4204e2</td></tr>
-<tr>
-<td title='com.ui.tests.LoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.LoginTest<br>Test method: Verify valid user able to login to the application using excel<br>Parameters: Users [email=yatese2929@mugstock.com, password=nithin@123]</td>
-<td></td>
-<td>0</td>
-<td>com.ui.tests.LoginTest@e70f13a</td></tr>
-<tr>
-<td title='com.ui.tests.LoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.LoginTest<br>Test method: Verify valid user able to login to the application using excel<br>Parameters: Users [email=yatese2929@mugstock.com, password=nithin@123]</td>
-<td></td>
-<td>0</td>
-<td>com.ui.tests.LoginTest@e70f13a</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.ui.tests.SearchProductsTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: com.ui.tests.SearchProductsTest<br>Test method: Verify loged in user able to search for a product and correct products serach are displayed</td>
-<td><div><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1821476698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1821476698'><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.SearchProductsTest@740d2e78</td></tr>
-<tr>
-<td title='com.ui.tests.SearchProductsTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: com.ui.tests.SearchProductsTest<br>Test method: Verify loged in user able to search for a product and correct products serach are displayed</td>
-<td><div><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace475323739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace475323739'><pre>java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95705562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace95705562'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@title=&apos;Add my first address&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Add my first address&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55065}, goog:processID: 50944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55065/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4902140c0f19f9971a89a6f6aafc4a7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utility.BrowserUtility.clickOn(BrowserUtility.java:140)
+	at com.ui.pages.MyAccountPage.goToAddAddressPage(MyAccountPage.java:32)
+	at com.ui.tests.AddNewFirstAddressTest.addNewAdress(AddNewFirstAddressTest.java:30)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -217,8 +124,42 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 </pre></div></td>
+<td>15</td>
+<td>com.ui.tests.AddNewFirstAddressTest@1b7c473a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ui.tests.SearchProductsTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: com.ui.tests.SearchProductsTest<br>Test method: Verify loged in user able to search for a product and correct products serach are displayed</td>
+<td></td>
 <td>0</td>
-<td>com.ui.tests.SearchProductsTest@740d2e78</td></tr>
+<td>com.ui.tests.SearchProductsTest@4ed5eb72</td></tr>
+<tr>
+<td title='com.ui.tests.LoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.LoginTest<br>Test method: Verify valid user able to login to the application using excel<br>Parameters: Users [email=yatese2929@mugstock.com, password=nithin@123]</td>
+<td></td>
+<td>0</td>
+<td>com.ui.tests.LoginTest@7a1234bf</td></tr>
+<tr>
+<td title='com.ui.tests.ProductCheckOutTest.checkOutTest()'><b>checkOutTest</b><br>Test class: com.ui.tests.ProductCheckOutTest<br>Test method: Verify a logged in user able to buy a dress</td>
+<td></td>
+<td>3</td>
+<td>com.ui.tests.ProductCheckOutTest@5e4bd84a</td></tr>
+<tr>
+<td title='com.ui.tests.InvalidCredsLoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.InvalidCredsLoginTest<br>Test method: Verify Invalid user able to login to the application using excel</td>
+<td></td>
+<td>1</td>
+<td>com.ui.tests.InvalidCredsLoginTest@3a4621bd</td></tr>
+<tr>
+<td title='com.ui.tests.LoginTest.loginExcelTest()'><b>loginExcelTest</b><br>Test class: com.ui.tests.LoginTest<br>Test method: Verify valid user able to login to the application using excel<br>Parameters: Users [email=yatese2929@mugstock.com, password=nithin@123]</td>
+<td></td>
+<td>1</td>
+<td>com.ui.tests.LoginTest@7a1234bf</td></tr>
 </table><p>
 </body>
 </html>

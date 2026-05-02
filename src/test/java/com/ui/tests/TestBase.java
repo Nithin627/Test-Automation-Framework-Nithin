@@ -36,7 +36,7 @@ public class TestBase {
 		} else {
 			// Running the test in local machine
 			logger.info("Loads the Home Page of the Website");
-			homePage = new HomePage(EDGE, isHeadless); // setup browser name and isHeadLess true/false
+			homePage = new HomePage(CHROME, isHeadless); // setup browser name and isHeadLess true/false
 //			homePage= new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless);
 		}
 

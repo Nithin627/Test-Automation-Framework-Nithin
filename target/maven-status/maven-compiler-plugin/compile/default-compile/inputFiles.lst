@@ -1,10 +1,18 @@
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\constants\Browser.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\constants\Env.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\constants\Size.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\DataProviders\LoginDataprovider.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\AddressPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\ConfirmAddressPage.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\HomePage.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\LoginPage.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\MyAccountPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\PaymentPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\ProductDetailPage.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\SearchResultsPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\ShippingPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pages\ShopingCartPage.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pojo\Address.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pojo\Config.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pojo\Environment.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\ui\pojo\TestData.java
@@ -13,6 +21,7 @@ C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_N
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\CSVReaderUtility.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\ExcelReaderUtility.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\ExtentReportUtility.java
+C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\FakeAddressUtility.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\JsonUtility.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\LamdaTestUtility.java
 C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\src\main\java\com\utility\LoggerUtility.java

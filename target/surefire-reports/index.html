@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,  2 skipped,  3 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,29 +103,10 @@
                     <div class="method-list-content failed suite-Automation_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.SearchProductsTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.AddNewFirstAddressTest" class="method navigator-link" hash-for-method="addNewAdress">addNewAdress</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Automation_Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods skipped suite-Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Automation_Suite -->
-                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods skipped suite-Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Automation_Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Automation_Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.SearchProductsTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.SearchProductsTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -134,6 +115,16 @@
                       <a href="#" panel-name="suite-Automation_Suite" class="show-methods passed suite-Automation_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.ProductCheckOutTest" class="method navigator-link" hash-for-method="checkOutTest">checkOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.LoginTest" class="method navigator-link" hash-for-method="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.InvalidCredsLoginTest" class="method navigator-link" hash-for-method="loginExcelTest">loginExcelTest</a> <!-- method navigator-link -->
@@ -146,7 +137,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.LoginTest" class="method navigator-link" hash-for-method="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.SearchProductsTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_Suite -->
@@ -164,86 +155,50 @@
           <div class="suite-Automation_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.ui.tests.SearchProductsTest</span>
+              <span class="class-name">com.ui.tests.AddNewFirstAddressTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyProductSearch">
-                  </a> <!-- verifyProductSearch -->
-                  <span class="method-name">verifyProductSearch</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
+                  <a name="addNewAdress">
+                  </a> <!-- addNewAdress -->
+                  <span class="method-name">addNewAdress</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@title=&apos;Add my first address&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Add my first address&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55065}, goog:processID: 50944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55065/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4902140c0f19f9971a89a6f6aafc4a7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utility.BrowserUtility.clickOn(BrowserUtility.java:140)
+	at com.ui.pages.MyAccountPage.goToAddAddressPage(MyAccountPage.java:32)
+	at com.ui.tests.AddNewFirstAddressTest.addNewAdress(AddNewFirstAddressTest.java:30)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames
+... Removed 11 stack frames
 </div> <!-- stack-trace -->
-                  <em>
-(Verify loged in user able to search for a product and correct products serach are displayed)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Suite-class-failed -->
-          <div class="suite-Automation_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.ui.tests.SearchProductsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductSearch">
-                  </a> <!-- verifyProductSearch -->
-                  <span class="method-name">verifyProductSearch</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify loged in user able to search for a product and correct products serach are displayed)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductSearch">
-                  </a> <!-- verifyProductSearch -->
-                  <span class="method-name">verifyProductSearch</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [PRINTED SUMMER DRESS1] but found [&quot;PRINTED SUMMER DRESS&quot;]
-	at com.ui.tests.SearchProductsTest.verifyProductSearch(SearchProductsTest.java:26)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify loged in user able to search for a product and correct products serach are displayed)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Suite-class-skipped -->
           <div class="suite-Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ui.tests.InvalidCredsLoginTest</span>
+              <span class="class-name">com.ui.tests.ProductCheckOutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginExcelTest">
-                  </a> <!-- loginExcelTest -->
-                  <span class="method-name">loginExcelTest</span>
+                  <a name="checkOutTest">
+                  </a> <!-- checkOutTest -->
+                  <span class="method-name">checkOutTest</span>
                   <em>
-(Verify Invalid user able to login to the application using excel)                  </em>
+(Verify a logged in user able to buy a dress)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,6 +231,40 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.InvalidCredsLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginExcelTest">
+                  </a> <!-- loginExcelTest -->
+                  <span class="method-name">loginExcelTest</span>
+                  <em>
+(Verify Invalid user able to login to the application using excel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.SearchProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <em>
+(Verify loged in user able to search for a product and correct products serach are displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
         </div> <!-- panel Automation_Suite -->
         <div panel-name="test-xml-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -294,6 +283,8 @@
       &lt;class name=&quot;com.ui.tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;com.ui.tests.InvalidCredsLoginTest&quot;/&gt;
       &lt;class name=&quot;com.ui.tests.SearchProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.AddNewFirstAddressTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.ProductCheckOutTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Automation Test --&gt;
 &lt;/suite&gt; &lt;!-- Automation Suite --&gt;
@@ -307,7 +298,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Automation Test (3 classes)</span>
+                <span class="test-name">Automation Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -321,6 +312,10 @@
               <span class="test-group-name">e2e</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">checkOutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">loginExcelTest</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -333,6 +328,10 @@
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">checkOutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">loginExcelTest</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -340,6 +339,10 @@
             <div class="test-group">
               <span class="test-group-name">smoke</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">loginExcelTest</span>
                 <br/>
@@ -367,34 +370,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginExcelTest')
-data.setCell(0, 2, 'com.ui.tests.LoginTest')
-data.setCell(0, 3, 970);
+data.setCell(0, 1, 'addNewAdress')
+data.setCell(0, 2, 'com.ui.tests.AddNewFirstAddressTest')
+data.setCell(0, 3, 15178);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginExcelTest')
-data.setCell(1, 2, 'com.ui.tests.LoginTest')
-data.setCell(1, 3, 959);
+data.setCell(1, 1, 'checkOutTest')
+data.setCell(1, 2, 'com.ui.tests.ProductCheckOutTest')
+data.setCell(1, 3, 3393);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginExcelTest')
-data.setCell(2, 2, 'com.ui.tests.InvalidCredsLoginTest')
-data.setCell(2, 3, 847);
+data.setCell(2, 2, 'com.ui.tests.LoginTest')
+data.setCell(2, 3, 1641);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyProductSearch')
-data.setCell(3, 2, 'com.ui.tests.SearchProductsTest')
-data.setCell(3, 3, 649);
+data.setCell(3, 1, 'loginExcelTest')
+data.setCell(3, 2, 'com.ui.tests.InvalidCredsLoginTest')
+data.setCell(3, 3, 1338);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyProductSearch')
 data.setCell(4, 2, 'com.ui.tests.SearchProductsTest')
-data.setCell(4, 3, 615);
+data.setCell(4, 3, 898);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyProductSearch')
-data.setCell(5, 2, 'com.ui.tests.SearchProductsTest')
-data.setCell(5, 3, 439);
+data.setCell(5, 1, 'loginExcelTest')
+data.setCell(5, 2, 'com.ui.tests.LoginTest')
+data.setCell(5, 3, 793);
 window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Automation_Suite">
               </div> <!-- times-div-Automation_Suite -->
             </div> <!-- times-div -->
@@ -420,10 +423,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductS...)</span>
+                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=AddNewFirstAddressTest.addNewAdre...)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=ProductCheckOutTest.checkOutTest(...)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -434,114 +444,122 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductS...)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.p...)</span>
-                <span class="method-start">493 ms</span>
+                <span class="method-start">623 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.InvalidCredsLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginExcelTest</span>
-                <span class="method-start">5890 ms</span>
+                <span class="method-start">3622 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">6746 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4031 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9780 ms</span>
+                <span class="method-start">4049 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.InvalidCredsLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4975 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5286 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
-                <span class="method-start">10335 ms</span>
+                <span class="method-start">5339 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyProductSearch</span>
-                <span class="method-start">11054 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11296 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.p...)</span>
-                <span class="method-start">11526 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11704 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductS...)</span>
-                <span class="method-start">11814 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
-                <span class="method-start">15578 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">15690 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">16549 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyProductSearch</span>
-                <span class="method-start">16607 ms</span>
+                <span class="method-start">5389 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17223 ms</span>
+                <span class="method-start">6290 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=SearchProductsTest.verifyProductS...)</span>
-                <span class="method-start">17538 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">20289 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyProductSearch</span>
-                <span class="method-start">21151 ms</span>
+                <span class="method-name">addNewAdress</span>
+                <span class="method-start">6607 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOutTest</span>
+                <span class="method-start">6732 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com.ui.p...)</span>
+                <span class="method-start">7834 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10126 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
+                <span class="method-start">10480 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21648 ms</span>
+                <span class="method-start">11273 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21848 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\nithi\AppData\Local\Temp\testng-eclipse--2009612194\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Automation_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Automation_Suite" class="navigator-link ">
                     <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Automation_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Automation_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Automation_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Automation_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods failed suite-Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods failed suite-Automation_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.AddNewFirstAddressTest" class="method navigator-link" hash-for-method="addNewAdress">addNewAdress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods passed suite-Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods passed suite-Automation_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Automation_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.ui.tests.ProductCheckOutTest" class="method navigator-link" hash-for-method="checkOutTest">checkOutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.ProductCheckOutTest" class="method navigator-link" hash-for-method="checkOutTest">checkOutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.LoginTest" class="method navigator-link" hash-for-method="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.InvalidCredsLoginTest" class="method navigator-link" hash-for-method="loginExcelTest">loginExcelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.LoginTest" class="method navigator-link" hash-for-method="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.ui.tests.SearchProductsTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,8 +151,42 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Automation_Suite" class="panel Automation_Suite">
+          <div class="suite-Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ui.tests.AddNewFirstAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewAdress">
+                  </a> <!-- addNewAdress -->
+                  <span class="method-name">addNewAdress</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@title=&apos;Add my first address&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Add my first address&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.98, fedcm:accounts: true, goog:processID: 30996, ms:edgeOptions: {debuggerAddress: localhost:54369}, msedge: {msedgedriverVersion: 147.0.3912.98 (6cae4df1a4ff..., userDataDir: C:\Users\nithi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 147.0.3912.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9db95fceb01d373b4b285def65b8810d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utility.BrowserUtility.clickOn(BrowserUtility.java:140)
+	at com.ui.pages.MyAccountPage.goToAddAddressPage(MyAccountPage.java:32)
+	at com.ui.tests.AddNewFirstAddressTest.addNewAdress(AddNewFirstAddressTest.java:30)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-failed -->
+          <div class="suite-Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.ui.tests.ProductCheckOutTest</span>
@@ -134,45 +202,110 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">
+                  </a> <!-- loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123]) -->
+                  <span class="method-name">loginExcelTest</span>
+                  <span class="parameters">(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
+                  <em>
+(Verify valid user able to login to the application using excel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])">
+                  </a> <!-- loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123]) -->
+                  <span class="method-name">loginExcelTest</span>
+                  <span class="parameters">(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
+                  <em>
+(Verify valid user able to login to the application using excel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.SearchProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <em>
+(Verify loged in user able to search for a product and correct products serach are displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.InvalidCredsLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginExcelTest">
+                  </a> <!-- loginExcelTest -->
+                  <span class="method-name">loginExcelTest</span>
+                  <em>
+(Verify Invalid user able to login to the application using excel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+        </div> <!-- panel Automation_Suite -->
+        <div panel-name="test-xml-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nithi\AppData\Local\Temp\testng-eclipse--2009612194\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nithi\OneDrive\Documents\Selenium_Project\SDETSeleniumMasterFramework_Nithin\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Automation Test&quot;&gt;
+    &lt;parameter name=&quot;isHeadless&quot; value=&quot;${isHeadless}&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;${browser}&quot;/&gt;
+    &lt;parameter name=&quot;isLambdaTest&quot; value=&quot;${isLambdaTest}&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.ui.tests.ProductCheckOutTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;checkOutTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.ui.tests.ProductCheckOutTest --&gt;
+      &lt;class name=&quot;com.ui.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.InvalidCredsLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.SearchProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.AddNewFirstAddressTest&quot;/&gt;
+      &lt;class name=&quot;com.ui.tests.ProductCheckOutTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Automation Test --&gt;
+&lt;/suite&gt; &lt;!-- Automation Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Automation Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -180,6 +313,14 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">checkOutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginExcelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductSearch</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -190,6 +331,10 @@
                 <span class="method-in-group-name">checkOutTest</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginExcelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">smoke</span>
@@ -198,53 +343,81 @@
                 <span class="method-in-group-name">checkOutTest</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginExcelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Automation_Suite');
+function tableData_Automation_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkOutTest')
-data.setCell(0, 2, 'com.ui.tests.ProductCheckOutTest')
-data.setCell(0, 3, 3022);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'addNewAdress')
+data.setCell(0, 2, 'com.ui.tests.AddNewFirstAddressTest')
+data.setCell(0, 3, 15382);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginExcelTest')
+data.setCell(1, 2, 'com.ui.tests.InvalidCredsLoginTest')
+data.setCell(1, 3, 10047);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkOutTest')
+data.setCell(2, 2, 'com.ui.tests.ProductCheckOutTest')
+data.setCell(2, 3, 4589);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductSearch')
+data.setCell(3, 2, 'com.ui.tests.SearchProductsTest')
+data.setCell(3, 3, 2764);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginExcelTest')
+data.setCell(4, 2, 'com.ui.tests.LoginTest')
+data.setCell(4, 3, 2717);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginExcelTest')
+data.setCell(5, 2, 'com.ui.tests.LoginTest')
+data.setCell(5, 3, 1117);
+window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Automation_Suite">
+              </div> <!-- times-div-Automation_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -252,20 +425,141 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, false, [TestResult name={null} status=CREATED method=ProductCheckOutTest.checkOutTest...)</span>
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=ProductCheckOutTest.checkOut...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.InvalidCredsLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=InvalidCredsLoginTest.loginE...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=AddNewFirstAddressTest.addNe...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=SearchProductsTest.verifyPro...)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com...)</span>
+                <span class="method-start">927 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2320 ms</span>
+                <span class="method-start">3418 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.InvalidCredsLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">checkOutTest</span>
-                <span class="method-start">3784 ms</span>
+                <span class="method-name">loginExcelTest</span>
+                <span class="method-start">4212 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5216 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6405 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
+                <span class="method-start">7354 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6811 ms</span>
+                <span class="method-start">10119 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch</span>
+                <span class="method-start">10457 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOutTest</span>
+                <span class="method-start">12891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.SearchProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13228 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.InvalidCredsLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14267 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addNewAdress</span>
+                <span class="method-start">16840 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ProductCheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17483 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(${browser}, false, false, [TestResult name={null} status=CREATED method=LoginTest.loginExcelTest(com...)</span>
+                <span class="method-start">19150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginExcelTest(Users [email=yatese2929@mugstock.com, password=nithin@123])</span>
+                <span class="method-start">20830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21951 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.AddNewFirstAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32444 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

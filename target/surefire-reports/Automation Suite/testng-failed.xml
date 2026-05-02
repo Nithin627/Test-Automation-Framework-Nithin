@@ -6,14 +6,14 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="isLambdaTest" value="false"/>
     <classes>
-      <class name="com.ui.tests.SearchProductsTest">
+      <class name="com.ui.tests.AddNewFirstAddressTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyProductSearch"/>
+          <include name="addNewAdress"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.ui.tests.SearchProductsTest -->
+      </class> <!-- com.ui.tests.AddNewFirstAddressTest -->
     </classes>
   </test> <!-- Automation Test(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->

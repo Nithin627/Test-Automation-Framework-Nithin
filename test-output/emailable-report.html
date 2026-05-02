@@ -8,11 +8,33 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,084</td><td></td><td></td></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">Automation Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,943</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ui.tests.ProductCheckOutTest</td><td><a href="#m0">checkOutTest</a></td><td rowspan="1">1777712155081</td><td rowspan="1">3022</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Automation Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ui.tests.AddNewFirstAddressTest</td><td><a href="#m0">addNewAdress</a></td><td rowspan="1">1777713470751</td><td rowspan="1">15382</td></tr><tr><th colspan="4">Automation Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ui.tests.InvalidCredsLoginTest</td><td><a href="#m1">loginExcelTest</a></td><td rowspan="1">1777713458123</td><td rowspan="1">10047</td></tr><tr class="passedodd"><td rowspan="2">com.ui.tests.LoginTest</td><td><a href="#m2">loginExcelTest</a></td><td rowspan="2">1777713461265</td><td rowspan="2">2717</td></tr><tr class="passedodd"><td><a href="#m3">loginExcelTest</a></td></tr><tr class="passedeven"><td rowspan="1">com.ui.tests.ProductCheckOutTest</td><td><a href="#m4">checkOutTest</a></td><td rowspan="1">1777713466802</td><td rowspan="1">4589</td></tr><tr class="passedodd"><td rowspan="1">com.ui.tests.SearchProductsTest</td><td><a href="#m5">verifyProductSearch</a></td><td rowspan="1">1777713464368</td><td rowspan="1">2764</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.ui.tests.ProductCheckOutTest#checkOutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Automation Test</h2><h3 id="m0">com.ui.tests.AddNewFirstAddressTest#addNewAdress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@title=&apos;Add my first address&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;Add my first address&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.98, fedcm:accounts: true, goog:processID: 30996, ms:edgeOptions: {debuggerAddress: localhost:54369}, msedge: {msedgedriverVersion: 147.0.3912.98 (6cae4df1a4ff..., userDataDir: C:\Users\nithi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 147.0.3912.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9db95fceb01d373b4b285def65b8810d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utility.BrowserUtility.clickOn(BrowserUtility.java:140)
+	at com.ui.pages.MyAccountPage.goToAddAddressPage(MyAccountPage.java:32)
+	at com.ui.tests.AddNewFirstAddressTest.addNewAdress(AddNewFirstAddressTest.java:30)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ui.tests.InvalidCredsLoginTest#loginExcelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ui.tests.LoginTest#loginExcelTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Users [email=yatese2929@mugstock.com, password=nithin@123]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ui.tests.LoginTest#loginExcelTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Users [email=yatese2929@mugstock.com, password=nithin@123]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ui.tests.ProductCheckOutTest#checkOutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.ui.tests.SearchProductsTest#verifyProductSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
